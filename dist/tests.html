@@ -1,0 +1,929 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="container-b">
+        <div class="header__wrapp">
+            <div class="header__nav">
+                <a class="header__logo" href="./">
+                  <picture>
+                    <source srcset="./images/logo.avif" type="image/avif">
+                    <source srcset="./images/logo.webp" type="image/webp">
+                    <img src="./images/logo.png" alt="logo">
+                </picture>
+                    
+                </a>
+
+                <nav class="nav burger-menu" data-nav="burger">
+                    <ul class="nav__list">
+                        <li class="nav__item" id="adults">
+                            <a class="nav__link" href="./about18+.html">
+                              Совершеннолетним (18+)
+                            </a>
+                        </li>
+                        <li class="nav__item" id="tests">
+                            <a class="nav__link" href="./tests.html">
+                              Тесты
+                            </a>
+                        </li>
+                        <li class="nav__item" id="contacts">
+                            <a class="nav__link" href="./#contacts">
+                              Контакты
+                            </a>
+                        </li>
+                        <li class="nav__item" id="specialists">
+                          <a class="nav__link" href="./about.html">
+                            Специалистам
+                          </a>
+                        </li>
+                        <li class="nav__item" id="directory">
+                          <a class="nav__link" href="./directory-list.html">
+                            Справочник
+                          </a>
+                        </li>
+                    </ul>
+                    <article class="header__social form-log">
+                      <div class="header__social-items">
+                        <a href="">
+                          <img src="./images/whatsap.svg" alt="whatsap">
+                        </a>
+                        <a href="">
+                          <img src="./images/vk.svg" alt="vk">
+                        </a>
+                        <a href="">
+                          <img src="./images/telegramm.svg" alt="telegramm">
+                        </a>
+                      </div>
+                        <div class="form-log__inner">
+                            <a href="#" class="form-log__link">
+                                Регистрация
+                            </a>
+                            <a href="#" class="form-log__link">
+                                Личный кабинет
+                            </a>
+                        </div>
+                        <a class="header__letter" href="#">
+                          info@wshealth.ru
+                        </a>
+                    </article>
+                </nav>
+            </div>
+            <div class="header__log">
+                <button class="header__btn-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <article class="header__social form-log">
+                  <div class="header__social-items">
+                    <a href="">
+                      <img src="./images/whatsap.svg" alt="whatsap">
+                    </a>
+                    <a href="">
+                      <img src="./images/vk.svg" alt="vk">
+                    </a>
+                    <a href="">
+                      <img src="./images/telegramm.svg" alt="telegramm">
+                    </a>
+                  </div>
+                    <div class="form-log__inner">
+                        <a href="#" class="form-log__link">
+                            Регистрация
+                        </a>
+                        <a href="#" class="form-log__link">
+                            Личный кабинет
+                        </a>
+                    </div>
+                    <a class="header__letter" href="#">
+                      info@wshealth.ru
+                    </a>
+                </article>
+            </div>
+
+        </div>
+    </div>
+</header>
+<main class="main" id="tests">
+  <section class="programs">
+    <div class="container-b">
+      <div class="tests__inner">
+        <h1 class="tests__title title">
+          Отметьте только один кружочек на каждый вопрос
+        </h1>
+        <h2 class="tests__subtitle">
+          Вопросы посвящены Вашим ощущениям и реакциям в сексе в течение последних 4 недель
+        </h2>
+        <div class="tests__items">
+          <form class="tests__form" action="#">
+            <ul class="tests__list">
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  1. Как часто за последние 4 недели Вы испытывали половое влечение или интерес к сексу?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-1" name="ans-one" value="yes">
+                    <label class="test__label" for="ans-1">Почти всегда или всегда</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-2" name="ans-one" value="yes">
+                    <label class="test__label" for="ans-2">Часто (более половины всего времени)</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-3" name="ans-one" value="yes">
+                    <label class="test__label" for="ans-3">Иногда (примерно половину всего времени)</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-4" name="ans-one" value="yes">
+                    <label class="test__label" for="ans-4">Несколько раз (менее половины всего времени)</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-5" name="ans-one" value="yes">
+                    <label class="test__label" for="ans-5">Почти никогда или никогда</label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  2. Как бы Вы оценили свой уровень (степень) полового влечения или интереса к сексу за последние 4 недели?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-6" name="ans-two" value="yes">
+                    <label class="test__label" for="ans-6">Очень высокий</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-7" name="ans-two" value="yes">
+                    <label class="test__label" for="ans-7">Высокий</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-8" name="ans-two" value="yes">
+                    <label class="test__label" for="ans-8">Умеренный</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-9" name="ans-two" value="yes">
+                    <label class="test__label" for="ans-9">Низкий
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-10" name="ans-two" value="yes">
+                    <label class="test__label" for="ans-10">Очень низкий или вообще отсутствует</label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  3. Как часто за последние 4 недели Вы ощущали сексуальное возбуждение во время сексуальной активности или полового акта?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-11" name="ans-three" value="yes">
+                    <label class="test__label" for="ans-11">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-12" name="ans-three" value="yes">
+                    <label class="test__label" for="ans-12">Почти всегда или всегда</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-13" name="ans-three" value="yes">
+                    <label class="test__label" for="ans-13">Часто (более половины всего времени)</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-14" name="ans-three" value="yes">
+                    <label class="test__label" for="ans-14">Иногда (примерно половину всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-15" name="ans-three" value="yes">
+                    <label class="test__label" for="ans-15">Несколько раз (менее половины всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-16" name="ans-three" value="yes">
+                    <label class="test__label" for="ans-16">Сексуальной активности не было
+                    </label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  4. Как бы Вы оценили Ваш уровень сексуального возбуждения во время сексуальной активности или полового акта за последние 4 недели?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-17" name="ans-four" value="yes">
+                    <label class="test__label" for="ans-17">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-18" name="ans-four" value="yes">
+                    <label class="test__label" for="ans-18">Очень высокий</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-19" name="ans-four" value="yes">
+                    <label class="test__label" for="ans-19">Высокий</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-20" name="ans-four" value="yes">
+                    <label class="test__label" for="ans-20">Умеренный
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-21" name="ans-four" value="yes">
+                    <label class="test__label" for="ans-21">Низкий
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-22" name="ans-four" value="yes">
+                    <label class="test__label" for="ans-22">Очень низкий или вообще отсутствует
+                    </label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  5. За последние 4 недели, насколько Вы были уверены в том, что у Вас наступит сексуальное возбуждение во время сексуальной активности или полового акта?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-23" name="ans-five" value="yes">
+                    <label class="test__label" for="ans-23">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-24" name="ans-five" value="yes">
+                    <label class="test__label" for="ans-24">Абсолютно уверена</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-25" name="ans-five" value="yes">
+                    <label class="test__label" for="ans-25">Очень уверена</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-26" name="ans-five" value="yes">
+                    <label class="test__label" for="ans-26">Умеренно уверена
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-27" name="ans-five" value="yes">
+                    <label class="test__label" for="ans-27">Слабо уверена
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-28" name="ans-six" value="yes">
+                    <label class="test__label" for="ans-28">Почти не уверена или не уверена совсем
+                    </label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  6. Как часто за последние 4 недели Вы были удовлетворены Вашим уровнем возбуждения во время сексуальной активности или полового акта?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-29" name="ans-six" value="yes">
+                    <label class="test__label" for="ans-29">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-30" name="ans-six" value="yes">
+                    <label class="test__label" for="ans-30">Почти всегда или всегда</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-31" name="ans-six" value="yes">
+                    <label class="test__label" for="ans-31">Часто (более половины всего времени)</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-32" name="ans-six" value="yes">
+                    <label class="test__label" for="ans-32">Иногда (примерно половину всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-33" name="ans-six" value="yes">
+                    <label class="test__label" for="ans-33">Несколько раз (менее половины всего времени)
+
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-34" name="ans-six" value="yes">
+                    <label class="test__label" for="ans-34">Сексуальной активности не было
+                    </label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  7. Выделялась ли у Вас смазка во время сексуальной активности или полового акта за последние 4 недели?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-35" name="ans-seven" value="yes">
+                    <label class="test__label" for="ans-35">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-36" name="ans-seven" value="yes">
+                    <label class="test__label" for="ans-36">Почти всегда или всегда</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-37" name="ans-seven" value="yes">
+                    <label class="test__label" for="ans-37">Большую часть времени (более половины всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-38" name="ans-seven" value="yes">
+                    <label class="test__label" for="ans-38">Иногда (примерно половину всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-39" name="ans-seven" value="yes">
+                    <label class="test__label" for="ans-39">Несколько раз (менее половины всего времени)
+
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-40" name="ans-seven" value="yes">
+                    <label class="test__label" for="ans-40">Сексуальной активности не было
+                    </label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  8. Насколько тяжело у Вас выделялась смазка во время сексуальной активности или полового акта за последние 4 недели?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-41" name="ans-eight" value="yes">
+                    <label class="test__label" for="ans-41">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-42" name="ans-eight" value="yes">
+                    <label class="test__label" for="ans-42">Чрезвычайно трудно или невозможно</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-43" name="ans-eight" value="yes">
+                    <label class="test__label" for="ans-43">
+                      Очень трудно
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-44" name="ans-eight" value="yes">
+                    <label class="test__label" for="ans-44">Трудно
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-45" name="ans-eight" value="yes">
+                    <label class="test__label" for="ans-45">
+                      Немного трудно
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-46" name="ans-eight" value="yes">
+                    <label class="test__label" for="ans-46">
+                      Нетрудно
+                    </label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  9. Как часто за последние 4 недели уровень выделенной смазки поддерживался до завершения сексуальной активности или полового акта?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-47" name="ans-nine" value="yes">
+                    <label class="test__label" for="ans-47">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-48" name="ans-nine" value="yes">
+                    <label class="test__label" for="ans-48">Почти всегда или всегда</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-49" name="ans-nine" value="yes">
+                    <label class="test__label" for="ans-49">
+                      Часто (более половины всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-50" name="ans-nine" value="yes">
+                    <label class="test__label" for="ans-50">Иногда (примерно половину всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-51" name="ans-nine" value="yes">
+                    <label class="test__label" for="ans-51">
+                      Несколько раз (менее половины всего времени)
+
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-52" name="ans-nine" value="yes">
+                    <label class="test__label" for="ans-52">
+                      Сексуальной активности не было
+                    </label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  10. Насколько трудно Вам было поддерживать уровень выделенной смазки до завершения сексуальной активности или полового акта за последние 4 недели?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-53" name="ans-ten" value="yes">
+                    <label class="test__label" for="ans-53">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-54" name="ans-ten" value="yes">
+                    <label class="test__label" for="ans-54">Чрезвычайно трудно или невозможно                      
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-55" name="ans-ten" value="yes">
+                    <label class="test__label" for="ans-55">
+                      Очень трудно
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-56" name="ans-ten" value="yes">
+                    <label class="test__label" for="ans-56">Трудно
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-57" name="ans-ten" value="yes">
+                    <label class="test__label" for="ans-57">
+                      Немного трудно
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-58" name="ans-ten" value="yes">
+                    <label class="test__label" for="ans-58">
+                      Нетрудно
+                    </label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  11. Как часто за последние 4 недели Вы достигали оргазма во время сексуальной стимуляции или полового акта?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-59" name="ans-eleven" value="yes">
+                    <label class="test__label" for="ans-59">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-60" name="ans-eleven" value="yes">
+                    <label class="test__label" for="ans-60">Почти всегда или всегда</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-61" name="ans-eleven" value="yes">
+                    <label class="test__label" for="ans-61">
+                      Часто (более половины всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-62" name="ans-eleven" value="yes">
+                    <label class="test__label" for="ans-62">Иногда (примерно половину всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-63" name="ans-eleven" value="yes">
+                    <label class="test__label" for="ans-63">
+                      Несколько раз (менее половины всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-64" name="ans-eleven" value="yes">
+                    <label class="test__label" for="ans-64">
+                      Сексуальной активности не было
+                    </label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  12. Насколько трудно Вам было достичь оргазма во время сексуальной стимуляции или полового акта за последние 4 недели?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-65" name="ans-twelve" value="yes">
+                    <label class="test__label" for="ans-65">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-66" name="ans-twelve" value="yes">
+                    <label class="test__label" for="ans-66">Чрезвычайно трудно или невозможно                      
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-67" name="ans-twelve" value="yes">
+                    <label class="test__label" for="ans-67">
+                      Очень трудно
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-68" name="ans-twelve" value="yes">
+                    <label class="test__label" for="ans-68">Трудно
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-69" name="ans-twelve" value="yes">
+                    <label class="test__label" for="ans-69">
+                      Немного трудно
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-70" name="ans-twelve" value="yes">
+                    <label class="test__label" for="ans-70">
+                      Нетрудно
+                    </label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  13. Насколько Вы были удовлетворены своей способностью достичь оргазма во время сексуальной стимуляции или полового акта за последние 4 недели?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-71" name="ans-thirteen" value="yes">
+                    <label class="test__label" for="ans-71">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-72" name="ans-thirteen" value="yes">
+                    <label class="test__label" for="ans-72">Очень удовлетворена               
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-73" name="ans-thirteen" value="yes">
+                    <label class="test__label" for="ans-73">
+                      Умеренно удовлетворена
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-74" name="ans-thirteen" value="yes">
+                    <label class="test__label" for="ans-74">Ни удовлетворена, ни не удовлетворена
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-75" name="ans-thirteen" value="yes">
+                    <label class="test__label" for="ans-75">
+                      Умеренно не удовлетворена
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-76" name="ans-thirteen" value="yes">
+                    <label class="test__label" for="ans-76">
+                      Очень не удовлетворена
+                    </label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  14. Насколько Вы были удовлетворены тем, насколько сильна была эмоциональная близость между Вами и партнёром во время сексуальной активности, за последние 4 недели?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-77" name="ans-fourteen" value="yes">
+                    <label class="test__label" for="ans-77">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-78" name="ans-fourteen" value="yes">
+                    <label class="test__label" for="ans-78">Очень удовлетворена               
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-79" name="ans-fourteen" value="yes">
+                    <label class="test__label" for="ans-79">
+                      Умеренно удовлетворена
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-80" name="ans-fourteen" value="yes">
+                    <label class="test__label" for="ans-80">Ни удовлетворена, ни не удовлетворена
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-81" name="ans-fourteen" value="yes">
+                    <label class="test__label" for="ans-81">
+                      Умеренно не удовлетворена
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-82" name="ans-fourteen" value="yes">
+                    <label class="test__label" for="ans-82">
+                      Очень не удовлетворена
+                    </label>
+                  </div>
+
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  15. Насколько Вы были удовлетворены Вашими отношениями с партнёром в плане секса за последние 4 недели?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-83" name="ans-fifteen" value="yes">
+                    <label class="test__label" for="ans-83">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-84" name="ans-fifteen" value="yes">
+                    <label class="test__label" for="ans-84">Очень удовлетворена               
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-85" name="ans-fifteen" value="yes">
+                    <label class="test__label" for="ans-85">
+                      Умеренно удовлетворена
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-86" name="ans-fifteen" value="yes">
+                    <label class="test__label" for="ans-86">Ни удовлетворена, ни не удовлетворена
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-87" name="ans-fifteen" value="yes">
+                    <label class="test__label" for="ans-87">
+                      Умеренно не удовлетворена
+                    </label>
+                  </div>
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  16. Насколько Вы были удовлетворены Вашей половой жизнью за последние 4 недели? – сюда относится и сексуальная активность без участия партнёра
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-88" name="ans-sixteen" value="yes">
+                    <label class="test__label" for="ans-88">Сексуальной активности не было</label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-89" name="ans-sixteen" value="yes">
+                    <label class="test__label" for="ans-89">Очень удовлетворена               
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-90" name="ans-sixteen" value="yes">
+                    <label class="test__label" for="ans-90">
+                      Умеренно удовлетворена
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-91" name="ans-sixteen" value="yes">
+                    <label class="test__label" for="ans-91">Ни удовлетворена, ни не удовлетворена
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-92" name="ans-sixteen" value="yes">
+                    <label class="test__label" for="ans-92">
+                      Умеренно не удовлетворена
+                    </label>
+                  </div>
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  17. Как часто за последние 4 недели Вы испытывали дискомфорт или боль во время вагинального проникновения?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-93" name="ans-seventeen" value="yes">
+                    <label class="test__label" for="ans-93">Половой акт не предпринимался
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-94" name="ans-seventeen" value="yes">
+                    <label class="test__label" for="ans-94">Почти всегда или всегда
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-95" name="ans-seventeen" value="yes">
+                    <label class="test__label" for="ans-95">
+                      Часто (более половины всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-96" name="ans-seventeen" value="yes">
+                    <label class="test__label" for="ans-96">Иногда (примерно половину всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-97" name="ans-seventeen" value="yes">
+                    <label class="test__label" for="ans-97">
+                      Несколько раз (менее половины всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-98" name="ans-seventeen" value="yes">
+                    <label class="test__label" for="ans-98">
+                      Почти никогда или никогда
+                    </label>
+                  </div>
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  18. Как часто за последние 4 недели Вы испытывали дискомфорт или боль после вагинального проникновения?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-99" name="ans-eightteen" value="yes">
+                    <label class="test__label" for="ans-99">Половой акт не предпринимался
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-100" name="ans-eightteen" value="yes">
+                    <label class="test__label" for="ans-100">Почти всегда или всегда
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-101" name="ans-eightteen" value="yes">
+                    <label class="test__label" for="ans-101">
+                      Часто (более половины всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-102" name="ans-eightteen" value="yes">
+                    <label class="test__label" for="ans-102">Иногда (примерно половину всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-103" name="ans-eightteen" value="yes">
+                    <label class="test__label" for="ans-103">
+                      Несколько раз (менее половины всего времени)
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-104" name="ans-eightteen" value="yes">
+                    <label class="test__label" for="ans-104">
+                      Почти никогда или никогда
+                    </label>
+                  </div>
+                </div>
+              </li>
+              <li class="tests__item test">
+                <h3 class="test__question">
+                  18. Как часто за последние 4 недели Вы испытывали дискомфорт или боль после вагинального проникновения?
+                </h3>
+                <div class="test__answers">
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-105" name="ans-nineteen" value="yes">
+                    <label class="test__label" for="ans-105">Половой акт не предпринимался
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-106" name="ans-nineteen" value="yes">
+                    <label class="test__label" for="ans-106">Очень высокий
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-107" name="ans-nineteen" value="yes">
+                    <label class="test__label" for="ans-107">
+                      Высокий
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-108" name="ans-nineteen" value="yes">
+                    <label class="test__label" for="ans-108">Умеренный
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-109" name="ans-nineteen" value="yes">
+                    <label class="test__label" for="ans-109">
+                      Низкий
+                    </label>
+                  </div>
+                  <div class="test__answer">
+                    <input class="test__input" type="radio" id="ans-110" name="ans-nineteen" value="yes">
+                    <label class="test__label" for="ans-110">
+                      Очень низкий или вообще не было
+                    </label>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <button class="tests__form-btn btn" type="submit">
+              Получить результат
+            </button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class=" footer">
+  <div class="container-s">
+      <div class="footer__wrapp">
+          
+
+          <div class="footer__com">
+            <div class="footer__com-inner">
+                <img loading="lazy" class="footer__logo" src="./images/logo-footer.png" alt="logo">
+                <span class="footer__com-copyright">
+                    COPYRIGHT © 2023
+                </span>
+            </div>
+          </div>
+
+          <div class="footer__contacts">
+            <div class="footer__contacts-inner">
+                <address class="footer__address">
+                    <p class="footer__address-text">
+                        <b>Адрес:</b> Россия, Москва, ул.
+                    </p>
+                    <p class="footer__address-text">
+                        <b>Почта:</b> @yandex.ru
+                    </p>
+                </address>
+                <div class="footer__info-links">
+                    <a class="footer__info-link" href="#">
+                        Реквизиты организации
+                    </a>
+                    <a class="footer__info-link" href="#">
+                        Пользовательское соглашение
+
+                    </a>
+                    <a class="footer__info-link" href="#">
+                        Политика конфиденциальности
+                    </a>
+                </div>
+            </div>
+          </div>
+          
+
+          <article class="footer__social social">
+            <a href="#" class="footer__mail">
+                info@wshealth.ru
+            </a>
+             <div class="footer__social-block">
+                <a class="social__item" href="#">
+                    <img src="./images/whatsap.svg" alt="whatsap">
+                  </a>
+                  <a class="social__item" href="#">
+                    <img src="./images/vk.svg" alt="vk">
+                  </a>
+                  <a class="social__item" href="#">
+                    <img src="./images/telegramm.svg" alt="telegramm">
+                  </a>
+             </div>
+          </article>
+      </div>
+  </div>
+</footer>
+<article class="popup-18">
+  <div class="container-s">
+    <div class="popup-18__inner">
+      <div class="popup-18__image">
+        <img src="./images/18+.png" alt="18+">
+      </div>
+      <h3 class="popup-18__title">
+        Внимание! Подтвердите свой возраст!
+      </h3>
+      <span class="popup-18__subtitle">
+        Для получения доступа к сайту необходимо подтвердить Ваше совершеннолетие!
+      </span>
+      <form class="popup-18__form" id="form-18" action="#">
+        <div class="popup-18__btns">
+          <button class="popup-18__btn btn-true">
+            Да, мне есть 18 лет
+          </button>
+          <button class="popup-18__btn btn-false">
+            Нет
+          </button>
+        </div>
+      </form>
+      <p class="popup-18__offer">
+        Сайт содержит информацию только для лиц, достигших 18 лет. Материалы сайта не являются рекламой и носят информационный характер.
+      </p>
+    </div>
+  </div>
+</article>
+<script src="js/main.min.js"></script>
+</body>
+
+</html>
